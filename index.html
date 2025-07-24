@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>NaijaVote Widget</title>
+
+  <!-- Link to manifest.json -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Optional icons / favicon -->
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Emblem_of_Nigeria.svg/192px-Emblem_of_Nigeria.svg.png" />
+
+  <!-- Theme color -->
+  <meta name="theme-color" content="#1a202c" />
+</head>
+<body>
+  <h1>🇳🇬 NaijaVote Widget</h1>
+  <p>This is a decentralized voting widget powered by Nostr.</p>
+
+  <script>
+    // Optional check for PWA installability
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(console.error);
+    }
+  </script>
+</body>
+</html>
