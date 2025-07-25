@@ -1,7 +1,7 @@
 {
   "name": "NaijaVote Widget",
   "description": "Decentralized election voting widget powered by Nostr",
-  "url": "https://your-site.netlify.app/", 
+  "url": "https://beamish-cajeta-1988ec.netlify.app/", 
   "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Emblem_of_Nigeria.svg/192px-Emblem_of_Nigeria.svg.png",
   "nostr_pubkey": "npub1yk2lcyn5a86tsf64cjttkldjq7uggn04tyufddykh3qmggq877vqjdraeq"
 }
